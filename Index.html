@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+    <title>My Personal Portfolio</title>
+</head>
+<body>
+    <div id ="header">
+        <div class="container">
+            <nav>
+                <img src="Image/logo.png" width="150" height="60">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa fa-times menu-bar" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars menu-bar" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UT/UX Designer</p>
+                <h1>Hi, I'm <span class="name">Rahul Prasad</span> <br> From India</h1>
+                <p><span class="sub-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis sed tenetur consectetur assumenda <br>doloremque eius nisi soluta blanditiis adipisci?</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------About------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/Profile image.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam,
+                        ullam expedita dolore modi aut commodi asperiores eligendi cumque
+                        corporis consequatur porro veritatis, suscipit tempore corrupti illum.
+                        Quos hic odit dignissimos.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-link" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul class="Skills">
+                                <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                                <li><span>Web Devlopment</span><br>Web App Devlopment</li>
+                                <li><span>App Devlopment</span><br>Building Android/IOS Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul class="Experience">
+                                <li><span>2021 - Current</span><br>UI/UX Design Traning at ET Institute</li>
+                                <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                                <li><span>App Devlopment</span><br>Internship at ekart E-Commerce</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul class="Education">
+                                <li><span>2021</span><br>University / Institute Name</li>
+                                <li><span>2017</span><br>College /  Institute Name</li>
+                                <li><span>2015</span><br>School / Board Name</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------Services------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-indent"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, rerum tenetur consectetur inventore autem repellat exercitationem fugit quaerat explicabo numquam in. Cumque eaque sit minus asperiores totam eligendi, iusto voluptatibus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, rerum tenetur consectetur inventore autem repellat exercitationem fugit quaerat explicabo numquam in. Cumque eaque sit minus asperiores totam eligendi, iusto voluptatibus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-play-circle" aria-hidden="true"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, rerum tenetur consectetur inventore autem repellat exercitationem fugit quaerat explicabo numquam in. Cumque eaque sit minus asperiores totam eligendi, iusto voluptatibus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------------------Portfolio------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Image/work1.jpg">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ab itaque minima ducimus iusto facere iste totam sunt quidem commodi! Quos officiis,
+                        ratione culpa unde at labore a! Sit, distinctio atque!</p>
+                        <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work2.jpg">
+                <div class="layer">
+                    <h3>Online Shopping Site</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ab itaque minima ducimus iusto facere iste totam sunt quidem commodi! Quos officiis,
+                        ratione culpa unde at labore a! Sit, distinctio atque!</p>
+                        <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/work3.jpg">
+                <div class="layer">
+                    <h3>Weather Report Application</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ab itaque minima ducimus iusto facere iste totam sunt quidem commodi! Quos officiis,
+                        ratione culpa unde at labore a! Sit, distinctio atque!</p>
+                        <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-------------------Contact Me-------------------->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa fa-paper-plane contact-icon"></i>contact@example.com</p>
+            <p><i class="fa fa-phone contact-icon"></i>+00 0000 0000 00</p>
+            <div class="social-media">
+                <ul>
+                    <li>Follow Me</li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-info"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+            <a href="Image/Example CV.pdf" download class="btn cv-btn">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btnbg">Submit</button>
+            </form>
+        </div>
+    </div>
+  </div>  
+</div>
+<div class="copywrite">
+    <p>Copywrite <i class="fa fa-copy"></i> Rahul Prasad with <i class="fa fa-heart"></i></p>
+</div>
+
+
+
+
+    <script>
+        var tablink = document.getElementsByClassName("tab-link");
+        var tabcontent = document.getElementsByClassName("tab-content");
+        
+        function opentab(tabname){
+            for(tablink of tablink){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontent){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+</body>
+</html>
